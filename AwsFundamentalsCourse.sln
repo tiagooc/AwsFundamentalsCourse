@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customers.Api", "3.Sqs\Cust
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnsPublisher", "4.Sns\SnsPublisher\SnsPublisher.csproj", "{EF5F3768-91D2-46A8-968A-28CC7F1B3867}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customers.Api", "4.Sns\Customers.Api\Customers.Api.csproj", "{AF1E4045-6907-4C6A-BF5B-0AB2B496BA56}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,7 @@ Global
 		{D11ACA8C-2D95-4635-B21C-633B7D17329D} = {390D4DF1-2EF9-414E-84EA-8100007989DC}
 		{AF1AA36C-D23F-4349-80FC-91EAC2126400} = {390D4DF1-2EF9-414E-84EA-8100007989DC}
 		{EF5F3768-91D2-46A8-968A-28CC7F1B3867} = {EA015107-5A34-455D-8214-493E311D9DAE}
+		{AF1E4045-6907-4C6A-BF5B-0AB2B496BA56} = {EA015107-5A34-455D-8214-493E311D9DAE}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{20275F40-CDEC-45CB-9B7E-AE8570BEE7B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -55,5 +58,9 @@ Global
 		{EF5F3768-91D2-46A8-968A-28CC7F1B3867}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF5F3768-91D2-46A8-968A-28CC7F1B3867}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF5F3768-91D2-46A8-968A-28CC7F1B3867}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF1E4045-6907-4C6A-BF5B-0AB2B496BA56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF1E4045-6907-4C6A-BF5B-0AB2B496BA56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF1E4045-6907-4C6A-BF5B-0AB2B496BA56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF1E4045-6907-4C6A-BF5B-0AB2B496BA56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

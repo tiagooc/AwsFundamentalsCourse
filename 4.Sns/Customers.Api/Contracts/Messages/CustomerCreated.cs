@@ -1,6 +1,6 @@
-﻿namespace Customers.Consumer.Messages;
+﻿namespace Customers.Api.Contracts.Messages;
 
-public class CustomerUpdated : ISqsMessage
+public class CustomerCreated
 {
     public required Guid Id { get; init; }
 
